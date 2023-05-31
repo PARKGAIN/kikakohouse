@@ -4,11 +4,10 @@
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ES2015",
     "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
 
     /* Bundler mode */
     "moduleResolution": "classic",
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
